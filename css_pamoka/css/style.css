@@ -1,0 +1,49 @@
+body{
+	background-color:tomato;
+}
+section{
+	background-color:#d3d3d3;
+}
+article{
+	background-color: #f1f1f1;
+}
+#super{
+	background-color: orange;
+}
+.lead{
+	font-size: 2em;
+}
+.strong{
+	font-weight: bold;
+}
+.hide{
+	display: none;
+}
+a[href="http://www.kitm.lt"]{
+	color: red;
+}
+a[href="http://www.smm.lt"]{
+	color: #856542;
+}
+a[href="http://www.delfi.lt"]{
+	color: #319875;
+}
+a[href$=".pdf"]{
+	color: green;
+}
+a[href$=".docx"]{
+	color: red;
+}
+a[href$=".xlsx"]{
+	color: grey;
+}
+/*Komentaras*/
+a:active{
+	color: red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: aqua;
+}
