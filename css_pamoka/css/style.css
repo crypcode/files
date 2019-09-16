@@ -47,3 +47,9 @@ a:visited{
 a:hover{
 	color: aqua;
 }
+li:first-child{
+	color: aqua;
+}
+li:last-child{
+	color: red;
+}
